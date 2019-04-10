@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import CryptoJS from 'crypto-js';
 
 
-let PUSH_SECRET_KEY = 'vsYP4jlgz2FtcUBw';
+let PUSH_SECRET_KEY = '和后台对应的加密key';
 
 //自定义签名工具类
 export default class SignUtils extends React.Component {
